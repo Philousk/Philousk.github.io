@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>accueil</title>
+    <!-- Référence à la feuille de style CSS de Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous">">
+    <!-- Référence à Font Awesome -->
+    <link rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css">
+    <!-- Référence à votre propre feuille de style CSS -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg bg-gradient w-100">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="accueil.html">
+          <img src="images/colorLogoMovieFrenzyE.svg" alt="logo" width="100"
+            height="100">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarScroll" aria-controls="navbarScroll"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+            style="--bs-scroll-height: 100px;">
+            <!-- Accueil -->
+            <li class="nav-item">
+              <a class="nav-link font-weight-bolder mx-4 active nav-active"
+                aria-current="page"
+                href="accueil.html">Accueil</a>
+            </li>
+            <!-- Catégorie -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#"
+                role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Catégorie
+              </a>
+              <div class="dropdown-menu">
+                <div class="d-flex">
+                  <ul class="flex-wrap">
+                    <li><a class="dropdown-item" href="categorie.html">Action</a></li>
+                    <li><a class="dropdown-item" href="categorie.html">Animation</a></li>
+                    <li><a class="dropdown-item" href="categorie.html">Aventure</a></li>
+                    <li><a class="dropdown-item" href="categorie.html">Comédie</a></li>
+                    <li><a class="dropdown-item" href="categorie.html">Crime</a></li>
+                    <li><a class="dropdown-item" href="categorie.html">Documentaire</a></li>
+                    <li><a class="dropdown-item" href="categorie.html">Drame</a></li>
+                  </ul>
+                  <ul class="flex-wrap">
+                    <li><a class="dropdown-item" href="categorie.html">Familial</a></li>
+                    <li><a class="dropdown-item" href="categorie.html">Fantastique</a></li>
+                    <li><a class="dropdown-item" href="categorie.html">Guerre</a></li>
+                    <li><a class="dropdown-item" href="categorie.html">Histoire</a></li>
+                    <li><a class="dropdown-item" href="categorie.html">Horreur</a></li>
+                    <li><a class="dropdown-item" href="categorie.html">Musique</a></li>
+                    <li><a class="dropdown-item" href="categorie.html">Mystère</a></li>
+                  </ul>
+                  <ul class="flex-wrap">
+                    <li><a class="dropdown-item" href="categorie.html">Romance</a></li>
+                    <li><a class="dropdown-item" href="categorie.html">Science-fiction</a></li>
+                    <li><a class="dropdown-item" href="categorie.html">Thriller</a></li>
+                    <li><a class="dropdown-item" href="categorie.html">Téléfilm</a></li>
+                    <li><a class="dropdown-item" href="categorie.html">Western</a></li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link font-weight-light mx-4" aria-current="page"
+                href="acteur.html">Acteurs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link font-weight-light mx-4" aria-current="page"
+                href="fiche_de_film.html">Fiche Film</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link font-weight-light mx-4" aria-current="page"
+                aria-current="page"
+                href="a_propos.html"><strong>À Propos</strong></a>
+            </li>
+          </ul>
+          
+          <!-- Barre de recherche -->
+          <!-- Recherche Icon -->
+          <a class="nav-item mx-3" href="recherche.html">
+            <i class="fas fa-search icon"></i>
+          </a>
+          <!-- Traduction -->
+          <a class="nav-item mx-3" href="#">
+            <i class="fas fa-language icon"></i>
+          </a>
+          <!-- Notification -->
+          <a class="nav-item mx-3" href="#">
+            <i class="fas fa-bell icon"></i>
+          </a>
+          <!-- Connexion -->
+          <div class="dropdown mx-3">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdownMenuLink"
+              role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <span class="d-none d-lg-inline">Myriam</span>
+              <span class="avatar3 me-2">
+                <i class="fas fa-user"></i>
+              </span>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-lg-end p-0"
+              aria-labelledby="dropdownMenuLink">
+              <li>
+                <div class="d-flex align-items-center p-3"
+                  style="background-color: #FF33CC; border: 3px solid #ffffff;">
+                  <div class="d-flex align-items-center me-3">
+                    <div class="avatar3 me-2">
+                      <i class="fas fa-user"></i>
+                    </div>
+                    <div>
+                      <div style="font-size: 24px; font-weight: 400; color:
+                        #ffffff;">Myriam</div>
+                      <div style="font-size: 14px; color: #ffffff;">myriam@example.com</div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li><button class="dropdown-item dropdown-itemConnexion"
+                  type="button"><i class="fas
+                    fa-user me-2"></i>Gestion du profil</button></li>
+              <li><button class="dropdown-item dropdown-itemConnexion"
+                  type="button"><i class="fas
+                    fa-cog me-2"></i>Compte</button></li>
+              <li><button class="dropdown-item dropdown-itemConnexion"
+                  type="button"><i class="fas
+                    fa-sliders-h me-2"></i>Paramètres</button></li>
+              <li><button class="dropdown-item dropdown-itemConnexion"
+                  type="button"><i class="fas
+                    fa-question-circle me-2"></i>Centre d'aide</button></li>
+              <li><button class="dropdown-item dropdown-itemConnexion"
+                  type="button"><i class="fas
+                    fa-sign-out-alt me-2"></i>Déconnexion</button></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Carousel Primeur-->
+    <section>
+      <div class="row">
+        <div class="col-12">
+          <div id="carouselExampleFade" class="carousel slide carousel-fade">
+          <div class="carousel-inner">
+            <div class="carousel-item active c-item">
+              <img src="images/img-carroussel01/landingLord04.png" alt="Slide 1"
+                class="c-img img-fluid">
+              <div class="c-captionfr carousel-caption d-none d-md-block">
+                <h2 class="c-titlePrimeur">EN PRIMEUR</h2>
+              </div>
+            </div>
+            <div class="carousel-item c-item">
+              <img src="images/img-carroussel01/valléeDeNuit.jpg" alt="Slide 2"
+                class="c-img img-fluid">
+              <div class="c-captionfr carousel-caption d-none d-md-block">
+                <h2 class="c-titlePrimeur">EN PRIMEUR</h2>
+              </div>
+            </div>
+            <div class="carousel-item c-item">
+              <img src="images/img-carroussel01/pinkRacing.png" alt="Slide 3"
+                class="c-img img-fluid">
+              <div class="c-captionfr carousel-caption d-none d-md-block">
+                <h2 class="c-titlePrimeur">EN PRIMEUR</h2>
+              </div>
+            </div>
+            <div class="carousel-item c-item">
+              <img src="images/img-carroussel01/totemRiver.png" alt="Slide 4"
+                class="c-img img-fluid">
+              <div class="c-captionfr carousel-caption d-none d-md-block">
+                <h2 class="c-titlePrimeur">EN PRIMEUR</h2>
+              </div>
+            </div>
+            <div class="carousel-item c-item">
+              <img src="images/img-carroussel01/5eSaisonEnColère.jpg" alt="Slide
+                5" class="c-img img-fluid">
+              <div class="c-captionfr carousel-caption d-none d-md-block">
+                <h2 class="c-titlePrimeur">EN PRIMEUR</h2>
+              </div>
+            </div>
+            <div class="carousel-item c-item">
+              <img src="images/img-carroussel01/dawnLove.png" alt="Slide 6"
+                class="c-img img-fluid">
+              <div class="c-captionfr carousel-caption d-none d-md-block">
+                <h2 class="c-titlePrimeur">EN PRIMEUR</h2>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button"
+            data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button"
+            data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Movie Section-->
+    <section class="movie">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-6">
+            <div class="row">
+              <div class="col-12">
+                <a aria-current="page" href="fiche_de_film.html">
+                  <h1 class="titreFilm">The Lord of the Rings: Requonquest</h1>
+                </a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12">
+                <div class="categorieDivMovie">
+                  <a aria-current="page" href="categorie.html">
+                    <span class="categorieSpanMovie">Aventure</span>
+                  </a>
+                  <a aria-current="page" href="categorie.html">
+                    <span class="categorieSpanMovie">Fantastique</span>
+                  </a>
+                  <a aria-current="page" href="categorie.html">
+                    <span class="categorieSpanMovie">Action</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12">
+                <div class="row">
+                  <div class="col-12">
+                    <div class="ratingPercent">
+                      <div>Satisfaction du public :<span class="spanPercent">99% </span></div>
+                      <div>2023. 3 h 35 min </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-12">
+                    <div class="bteSynopsis">
+                      <P>Des années après la destruction de l'Anneau de Pouvoir, les
+                        anciens alliés de Frodon, Sam, Legolas et Gimli, se réunissent
+                        pour affronter un nouvel ennemi, Sauron, qui a ressuscité sous
+                        une
+                        forme encore plus sombre et plus puissante.</p>
+                      <p>L'enjeu est crucial car Sauron a rassemblé une armée maléfique
+                        pour prendre le contrôle de Terre du Milieu. Les héros vont
+                        devoir
+                        faire face à un défi encore plus grand lorsqu'ils rencontrent un
+                        nouveau personnage, Requon, qui semble avoir un lien avec le
+                        passé
+                        sombre de Sauron et Terre du Milieu.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>                          
+          </div>
+          <div class="col-12 col-md-6">
+            <div class="row">
+              <div class="col-12">
+                <div class="d-grid gap-3 buttonMovieSection mx-auto col-md-3">
+                  <button type="button" class="btn btn-light btn-lg"><span
+                      style='font-size:28px;'>&#9658;</span>LECTURE</button>
+                  <button type="button" class="btn btn-dark btn-lg">BANDE-ANNONCE</button>
+                  <button type="button" class="btn btn-outline-info">PG-13</button>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12">
+                <div class="gabarit_distribution col-md-4">
+                  <div class="distribution">
+                    Distribution :
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12">
+                  <div class="bte4Actors">
+                    <div class="bteActor">
+                      <img src="images/acteurs/Elijah Wood.jpg" alt="Actor 1" class="img-fluid">
+                      <div class="bteActorsName">
+                        <a aria-current="page" href="acteur.html">
+                          <span class="nameActorSpanMovie">Elijah Wood</span>
+                        </a>
+                        <span class="namePerso">Frodo</span>
+                      </div>
+                    </div>
+                    <div class="bteActor">
+                      <img src="images/acteurs/Elijah Wood.jpg" alt="Actor 2" class="img-fluid">
+                      <div class="bteActorsName">
+                        <a aria-current="page" href="acteur.html">
+                          <span class="nameActorSpanMovie">Elijah Wood</span>
+                        </a>
+                        <span class="namePerso">Frodo</span>
+                      </div>
+                    </div>
+                    <div class="bteActor">
+                      <img src="images/acteurs/Elijah Wood.jpg" alt="Actor 3" class="img-fluid">
+                      <div class="bteActorsName">
+                        <a aria-current="page" href="acteur.html">
+                          <span class="nameActorSpanMovie">Elijah Wood</span>
+                        </a>
+                        <span class="namePerso">Frodo</span>
+                      </div>
+                    </div>
+                    <div class="bteActor">
+                      <img src="images/acteurs/Elijah Wood.jpg" alt="Actor 4" class="img-fluid">
+                      <div class="bteActorsName">
+                        <a aria-current="page" href="acteur.html">
+                          <span class="nameActorSpanMovie">Elijah Wood</span>
+                        </a>
+                        <span class="namePerso">Frodo</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>  
+            </div>  
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tendences Section-->
+    <section class="tendances">
+      <div class="row">
+        <div class="col-12 w-100 inverseSeperator">
+          <img src="images/sectionTransitionDégradé01.png" alt="separatorDegrade01" class="img-fluid">
+        </div>
+      </div>
+      <div class="container">
+        <div class="row justify-content-start">
+          <div class="col-12 col-md-8 col-lg-6">
+            <div class="title-container">
+              <div class="title-border">
+                <h2 class="title-text no-border">TENDANCES DU MOMENT</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row image-row colTendenceImg">
+          <div class="col-6 col-md-3">
+            <div class="image-container">
+              <img src="images/affiches/1.jpg" alt="Image 1" class="img-fluid">
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="image-container">
+              <img src="images/affiches/3.jpg" alt="Image 3" class="img-fluid">
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="image-container">
+              <img src="images/affiches/4.jpg" alt="Image 4" class="img-fluid">
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="image-container">
+              <img src="images/affiches/5.jpg" alt="Image 5" class="img-fluid">
+            </div>
+          </div>
+        </div>
+        <div class="row image-row colTendenceImg">
+          <div class="col-6 col-md-3">
+            <div class="image-container">
+              <img src="images/affiches/7.jpg" alt="Image 7" class="img-fluid">
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="image-container">
+              <img src="images/affiches/8.jpg" alt="Image 8" class="img-fluid">
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="image-container">
+              <img src="images/affiches/9.jpg" alt="Image 9" class="img-fluid">
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="image-container">
+              <img src="images/affiches/12.jpg" alt="Image 12" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 w-100 inverseSeperator2">
+          <img src="images/sectionTransitionDégradé01.png" alt="separatorDegrade01" class="img-fluid">
+        </div>
+      </div>
+    </section>
+
+    <!-- BestChoice Section-->    
+    <section class="bestChoice">
+      <div class="container">
+        <div class="row justify-content-start">
+          <div class="col-12">
+            <div class="title-containerChoice">
+              <div class="title-border">
+                <h2 class="title-text no-border">MEILLEURS CHOIX POUR MYRIAM</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row image-row colTendenceImg">
+          <div class="col-6 col-md-3">
+            <div class="image-container">
+              <img src="images/affiches/1.jpg" alt="Image 1" class="img-fluid">
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="image-container">
+              <img src="images/affiches/3.jpg" alt="Image 3" class="img-fluid">
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="image-container">
+              <img src="images/affiches/4.jpg" alt="Image 4" class="img-fluid">
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="image-container">
+              <img src="images/affiches/5.jpg" alt="Image 5" class="img-fluid">
+            </div>
+          </div>
+        </div>
+        <div class="row image-row colTendenceImg">
+          <div class="col-6 col-md-3">
+            <div class="image-container">
+              <img src="images/affiches/7.jpg" alt="Image 7" class="img-fluid">
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="image-container">
+              <img src="images/affiches/8.jpg" alt="Image 8" class="img-fluid">
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="image-container">
+              <img src="images/affiches/9.jpg" alt="Image 9" class="img-fluid">
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="image-container">
+              <img src="images/affiches/12.jpg" alt="Image 12" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Valentin ection-->    
+    <section class="stValentin">
+      <div class="container">
+        <div class="row justify-content-start">
+          <div class="col-8">
+            <div class="title-containerValentin">
+              <div class="title-border">
+                <h2 class="title-textVal no-border">
+                  POUR LA ST-VALENTIN DE MYRIAM
+                </h2>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="iconValentin">
+              <div class="row">
+                <div class="col-4"><img src="images/whiteflower-bouquet2.png" alt="flower1" class="img-fluid"></div>
+                <div class="col-4"><img src="images/whiteflower-bouquet2.png" alt="flower2" class="img-fluid pivotFlower"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row image-row colValentinImg">
+          <div class="col-6 col-md-3">
+            <div class="image-container">
+              <img src="images/affiches/1.jpg" alt="Image 1" class="img-fluid">
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="image-container">
+              <img src="images/affiches/3.jpg" alt="Image 3" class="img-fluid">
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="image-container">
+              <img src="images/affiches/4.jpg" alt="Image 4" class="img-fluid">
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="image-container">
+              <img src="images/affiches/5.jpg" alt="Image 5" class="img-fluid">
+            </div>
+          </div>
+        </div>
+        <div class="row image-row colValentinImg">
+          <div class="col-6 col-md-3">
+            <div class="image-container">
+              <img src="images/affiches/7.jpg" alt="Image 7" class="img-fluid">
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="image-container">
+              <img src="images/affiches/8.jpg" alt="Image 8" class="img-fluid">
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="image-container">
+              <img src="images/affiches/9.jpg" alt="Image 9" class="img-fluid">
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="image-container">
+              <img src="images/affiches/12.jpg" alt="Image 12" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer-->
+    <footer>
+      <div class="triangle-top"></div>
+      <div class="text-center logo-container">
+        <a href="accueil.html">
+          <img src="images/colorLogoMovieFrenzyE.svg" alt="Movie Frenzy E
+            logo" id="logoFooter">
+        </a>
+      </div>
+      <div class="footer-container container-fluid">
+        <div class="row">
+          <div class="left col-12 col-md-6">
+            <div class="row">
+              <div class="column col-6">
+                <h2>ENTREPRISE</h2>
+                <div class="links">
+                  <a href="#">Conditions</a>
+                  <a href="#">Politique de confidentialité</a>
+                  <a href="#">Cookies</a>
+                  <a href="#">Assistance</a>
+                  <a href="#">Partenaires</a>
+                </div>
+              </div>
+              <div class="column col-6">
+                <h2>ACCÈS RAPIDE</h2>
+                <div class="links">
+                  <a href="#">Films populaires</a>
+                  <a href="#">Catégories</a>
+                  <a href="acteur.html">Acteurs</a>
+                  <a href="#">À propos</a>
+                  <a href="#">Connexion</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="right col-12 col-md-6">
+            <div class="newsletter">
+              <h2 class="newsletter-title">INSCRIS TOI À NOTRE INFOLETTRE</h2>
+              <div class="input-container">
+                <input type="text" placeholder="Ton adresse email">
+                <button class="submit-button">ENVOYER</button>
+              </div>
+            </div>
+            <div class="social-icons row">
+              <div class="col-2">
+                <img src="images/Social Networks/facebook.png" alt="Facebook" class="img-fluid">
+              </div>
+              <div class="col-2">
+                <img src="images/Social Networks/twitter.png" alt="Twitter" class="img-fluid">
+              </div>
+              <div class="col-2">
+                <img src="images/Social Networks/instagram.png" alt="Instagram" class="img-fluid">
+              </div>
+              <div class="col-2">
+                <img src="images/Social Networks/linkedin.png" alt="LinkedIn" class="img-fluid">
+              </div>
+              <div class="col-2">
+                <img src="images/Social Networks/youtube.png" alt="YouTube" class="img-fluid">
+              </div>
+              <div class="col-2">
+                <img src="images/Social Networks/pinterest.png" alt="Pinterest" class="img-fluid">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="copyR row">
+          <div class="col-12">
+            2023 MovieFrenzy. Tous droits réservés<span>&nbsp;©</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bouton Haut de page-->
+    <a href="#" class="scrollToTop"><img src="images/topDegrad03.png"
+      alt="topPage">
+    </a>
+      
+    <script
+      src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js">
+    </script>
+    <!-- Script  Bouton Haut de page-->
+    <script>
+      var scrollToTopBtn = document.querySelector(".scrollToTop");
+      
+      window.addEventListener("scroll", function() {
+        var scrollHeight = window.pageYOffset;
+        if (scrollHeight > 300) {
+          scrollToTopBtn.classList.add("show");
+        } else {
+          scrollToTopBtn.classList.remove("show");
+        }
+      });
+      
+      scrollToTopBtn.addEventListener("click", function() {
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth"
+        });
+      });
+      </script>
+    <!-- Référence à popper.js, requis pour Bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+      integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+      crossorigin="anonymous"></script>
+  </body>
+</html>
